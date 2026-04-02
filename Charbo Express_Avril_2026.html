@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charbo Express – Avril 2026 (Français)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Open Sans',Arial,sans-serif;font-size:13px;color:#222;background:#f0f0f0}
+  .page{width:820px;margin:30px auto;background:#fff;padding:40px 48px;border:1px solid #ccc;box-shadow:0 2px 8px rgba(0,0,0,.1);page-break-after:always}
+  .masthead{display:flex;align-items:center;border-bottom:3px solid #7b1113;padding-bottom:12px;margin-bottom:16px;gap:16px}
+  .masthead-logo{width:64px;height:64px;background:#7b1113;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:10px;text-align:center;line-height:1.3;flex-shrink:0;padding:6px}
+  .masthead-title{font-family:'Merriweather',serif;font-size:24px;font-weight:700;color:#7b1113;letter-spacing:1px;text-transform:uppercase}
+  .masthead-sub{font-size:10px;color:#555;text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+  .masthead-edition{font-size:11px;color:#888;text-align:right;white-space:nowrap;margin-left:auto}
+  .contact-bar{background:#f0f0f0;border-radius:4px;padding:6px 12px;font-size:11px;color:#555;margin-bottom:22px;display:flex;gap:24px}
+  .contact-bar a{color:#7b1113;text-decoration:none}
+  h1.section{font-family:'Merriweather',serif;font-size:16px;color:#7b1113;text-transform:uppercase;border-bottom:2px solid #7b1113;padding-bottom:5px;margin:22px 0 13px;letter-spacing:.4px}
+  h2.sub{font-size:12px;font-weight:700;margin:13px 0 5px;color:#333;text-transform:uppercase;letter-spacing:.3px}
+  p{line-height:1.7;margin-bottom:10px}
+  ul{padding-left:20px;margin-bottom:10px}
+  li{margin-bottom:6px;line-height:1.6}
+  .note{background:#fff8e1;border-left:4px solid #f9a825;padding:10px 14px;margin:12px 0;font-size:11px;line-height:1.6;color:#444;border-radius:0 4px 4px 0}
+  .page-num{text-align:right;font-size:10px;color:#aaa;border-top:1px solid #eee;padding-top:8px;margin-top:22px}
+  .cal-wrapper{overflow-x:auto;margin:14px 0}
+  table.calendar{width:100%;border-collapse:collapse;font-size:10px}
+  table.calendar th{background:#7b1113;color:white;padding:6px 3px;text-align:center;font-weight:600;font-size:10px}
+  table.calendar td{border:1px solid #ddd;padding:5px;vertical-align:top;width:14.28%}
+  .day-num{font-weight:700;font-size:13px;margin-bottom:2px}
+  .day-label{font-size:9px;color:#aaa;margin-top:3px}
+  .cal-event{font-size:10px;color:#333;margin-bottom:2px;line-height:1.4}
+  td.conge{background:#ffe0e0}
+  td.paques{background:#fff3cd}
+  .ical-btn{display:inline-flex;align-items:center;gap:3px;background:#7b1113;color:white;border-radius:3px;padding:2px 6px;font-size:9px;font-weight:700;text-decoration:none;margin-top:2px;white-space:nowrap}
+  .ical-btn:hover{background:#a01418}
+  .event-row{display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;padding:7px 10px;background:#fafafa;border-left:3px solid #7b1113;border-radius:0 4px 4px 0}
+  .ev-date{font-weight:700;min-width:72px;color:#7b1113;font-size:12px;flex-shrink:0}
+  .ev-desc{flex:1;font-size:12px;line-height:1.5}
+  .ici-link{color:#7b1113;font-weight:600}
+  @media print{
+    body{background:white}
+    .page{box-shadow:none;margin:0 auto;page-break-after:always;border:none}
+    .ical-btn{background:#7b1113!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    table.calendar th{background:#7b1113!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    td.conge{background:#ffe0e0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    td.paques{background:#fff3cd!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — CALENDRIER -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 01</div>
+  </div>
+  <div class="contact-bar">
+    <span>📞 416-393-5537</span>
+    <span>🌐 <a href="https://esmdc.cscmonavenir.ca">esmdc.cscmonavenir.ca</a></span>
+  </div>
+
+  <h1 class="section">Principaux Événements du Mois</h1>
+  <p style="font-style:italic;font-size:11px;color:#666;margin-bottom:10px;"><strong>Espoir du mois :</strong> Un PENSEUR RÉFLÉCHI et CRÉATIF qui, dans une approche holistique et à la lumière d'une conscience éclairée par les valeurs chrétiennes, cherche des solutions et prend des décisions en vue du bien commun.</p>
+
+  <div class="cal-wrapper">
+  <table class="calendar">
+    <tr><th>Dimanche</th><th>Lundi</th><th>Mardi</th><th>Mercredi</th><th>Jeudi</th><th>Vendredi</th><th>Samedi</th></tr>
+    <tr>
+      <td></td><td></td><td></td>
+      <td>
+        <div class="day-num">1</div>
+        <div class="day-label">Jour 2</div>
+      </td>
+      <td>
+        <div class="day-num">2</div>
+        <div class="cal-event">Jeudi Saint – Chemin de Croix (tableaux vivants)</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Achemincroix-avr2%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260402%0D%0ADTEND%3BVALUE%3DDATE%3A20260403%0D%0ASUMMARY%3AJeudi%20Saint%20%E2%80%93%20Chemin%20de%20Croix%20en%20tableaux%20vivants%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20du%20groupe%20Flamme%20et%20Foi%20et%20du%20groupe%20Pastoral%20animent%20le%20Chemin%20de%20Croix%20%C3%A0%20l%27aide%20des%20tableaux%20vivants.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="chemin-croix-avr2.ics">+CAL</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td class="conge">
+        <div class="day-num">3</div>
+        <div class="cal-event" style="color:#7b1113;font-weight:700;">Vendredi Saint — Congé</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Avendredisaint-avr3%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260403%0D%0ADTEND%3BVALUE%3DDATE%3A20260404%0D%0ASUMMARY%3AVendredi%20Saint%20%E2%80%93%20Cong%C3%A9%0D%0ADESCRIPTION%3AVendredi%20Saint%20%E2%80%93%20Journ%C3%A9e%20cong%C3%A9.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="vendredi-saint-avr3.ics">+CAL</a>
+      </td>
+      <td><div class="day-num">4</div></td>
+    </tr>
+    <tr>
+      <td class="paques"><div class="day-num">5</div><div class="cal-event" style="color:#c17000;font-weight:700;">Pâques</div></td>
+      <td class="conge">
+        <div class="day-num">6</div>
+        <div class="cal-event" style="color:#7b1113;font-weight:700;">Lundi de Pâques — Congé</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Alundispaques-avr6%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260406%0D%0ADTEND%3BVALUE%3DDATE%3A20260407%0D%0ASUMMARY%3ALundi%20de%20P%C3%A2ques%20%E2%80%93%20Cong%C3%A9%0D%0ADESCRIPTION%3ALundi%20de%20P%C3%A2ques%20%E2%80%93%20Journ%C3%A9e%20cong%C3%A9.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="lundi-paques-avr6.ics">+CAL</a>
+      </td>
+      <td><div class="day-num">7</div><div class="day-label">Jour 2</div></td>
+      <td>
+        <div class="day-num">8</div>
+        <div class="cal-event">Journée BAM</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abam-avr8%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260408%0D%0ADTEND%3BVALUE%3DDATE%3A20260409%0D%0ASUMMARY%3AJourn%C3%A9e%20BAM%0D%0ADESCRIPTION%3AJourn%C3%A9e%20BAM%20%C3%A0%20l%27%C3%A9cole.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="bam-avr8.ics">+CAL</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td>
+        <div class="day-num">9</div>
+        <div class="cal-event">Atelier cinéma mobile</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Acinema-avr9%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260409%0D%0ADTEND%3BVALUE%3DDATE%3A20260410%0D%0ASUMMARY%3AAtelier%20cin%C3%A9ma%20mobile%20par%20le%20Labo%0D%0ADESCRIPTION%3A%C3%89crire%20et%20r%C3%A9aliser%20son%20premier%20film.%20Cr%C3%A9er%20un%20court%20m%C3%A9trage%20pouvant%20%C3%AAtre%20projet%C3%A9%20au%20Labo%20%C3%A0%20Toronto.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="cinema-avr9.ics">+CAL</a>
+        <div class="day-label">Jour 2</div>
+      </td>
+      <td>
+        <div class="day-num">10</div>
+        <div class="cal-event">Pratique du TPCL</div>
+        <div class="cal-event">MHS – Formation pigments (Aga Khan)</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Atpcl-pratique-avr10%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260410%0D%0ADTEND%3BVALUE%3DDATE%3A20260411%0D%0ASUMMARY%3APratique%20du%20TPCL%0D%0ADESCRIPTION%3ASessions%20d%27appui%20intensif%20aux%20%C3%A9l%C3%A8ves%20%E2%80%93%20pratique%20TPCL.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="tpcl-pratique-avr10.ics">+CAL TPCL</a>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-agakhan-avr10%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260410%0D%0ADTEND%3BVALUE%3DDATE%3A20260411%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Formation%20pigments%20et%20couleurs%20(Fondation%20Aga%20Khan)%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20une%20formation%20sur%20les%20pigments%20et%20les%20couleurs%20%C3%A0%20la%20fondation%20Aga%20Khan.%0D%0ALOCATION%3AFondation%20Aga%20Khan%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-agakhan-avr10.ics">+CAL MHS</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td><div class="day-num">11</div></td>
+    </tr>
+    <tr>
+      <td><div class="day-num">12</div></td>
+      <td>
+        <div class="day-num">13</div>
+        <div class="cal-event">Messe de la résurrection</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amesse-avr13%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260413%0D%0ADTEND%3BVALUE%3DDATE%3A20260414%0D%0ASUMMARY%3AMesse%20de%20la%20R%C3%A9surrection%0D%0ADESCRIPTION%3AMesse%20de%20la%20R%C3%A9surrection%20%C3%A0%20la%20caf%C3%A9t%C3%A9ria%20de%20l%27%C3%A9cole.%0D%0ALOCATION%3ACaf%C3%A9t%C3%A9ria%2C%20%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="messe-avr13.ics">+CAL</a>
+      </td>
+      <td>
+        <div class="day-num">14</div>
+        <div class="cal-event">PrendsTech 7e et 8e</div>
+        <div class="cal-event">Badminton TDCAA (11e–12e)</div>
+        <div class="cal-event">MHS – Atelier Beanstalk</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aprendstech78-avr14%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3APrendsTech%20%E2%80%93%20Journ%C3%A9e%20de%20comp%C3%A9tition%207e%20et%208e%20ann%C3%A9e%0D%0ADESCRIPTION%3AJourn%C3%A9e%20de%20comp%C3%A9tition%20en%20robotique%2C%20animation%20et%20technologie%20pour%20les%207e%20et%208e%20ann%C3%A9e.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="prendstech-78-avr14.ics">+CAL PrendsTech</a>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abadminton1112-avr14%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3ATournoi%20de%20badminton%20TDCAA%20(11e%E2%80%9312e)%0D%0ADESCRIPTION%3ATournoi%20de%20badminton%20TDCAA%20au%20centre%20Pan%20Am%20%C3%A0%20Markham%20%E2%80%93%2011e%20et%2012e%20ann%C3%A9e.%0D%0ALOCATION%3ACentre%20Pan%20Am%2C%20Markham%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="badminton-1112-avr14.ics">+CAL Badminton</a>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-beanstalk-avr14%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Atelier%20Innovation%2C%20Cr%C3%A9ativit%C3%A9%20et%20Entrepreneuriat%20(Beanstalk)%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20assistent%20%C3%A0%20un%20atelier%20Innovation%2C%20Cr%C3%A9ativit%C3%A9%20et%20Entrepreneuriat%20anim%C3%A9%20par%20Beanstalk.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-beanstalk-avr14.ics">+CAL MHS</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td><div class="day-num">15</div><div class="day-label">Jour 2</div></td>
+      <td>
+        <div class="day-num">16</div>
+        <div class="cal-event">Fin du terme 3</div>
+        <div class="cal-event">PrendsTech écoles nourricières</div>
+        <div class="cal-event">Soirée PrendsTech 17h30–19h</div>
+        <div class="cal-event">MHS – CPR/Premiers soins</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aprendstech-nourr-avr16%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260416%0D%0ADTEND%3BVALUE%3DDATE%3A20260417%0D%0ASUMMARY%3APrendsTech%20%E2%80%93%20Comp%C3%A9tition%20%C3%A9coles%20nourri%C3%A8res%0D%0ADESCRIPTION%3AJourn%C3%A9e%20de%20comp%C3%A9tition%20pour%20les%20%C3%A9l%C3%A8ves%20des%20%C3%A9coles%20nourri%C3%A8res%20%28Saint-No%C3%ABl-Chabanel%20et%20Sainte-Madelaine%29.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="prendstech-nourr-avr16.ics">+CAL PrendsTech</a>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Asoiree-prendstech-avr16%40charbo2026%0D%0ADTSTART%3A20260416T213000Z%0D%0ADTEND%3A20260416T230000Z%0D%0ASUMMARY%3ASoir%C3%A9e%20PrendsTech%20%E2%80%93%2017h30%E2%80%9319h%0D%0ADESCRIPTION%3AExposition%2C%20conf%C3%A9rence%20sur%20les%20m%C3%A9tiers%20sp%C3%A9cialis%C3%A9s%20%28Rokhaya%20Gueye%29%2C%20remise%20des%20prix%20et%20repas%20gratuits%20pour%20les%20250%20premi%C3%A8res%20personnes.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="soiree-prendstech-avr16.ics">+CAL Soirée</a>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-cpr-avr16%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260416%0D%0ADTEND%3BVALUE%3DDATE%3A20260418%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Formation%20CPR%20et%20premiers%20soins%20(Jamie%20Burns)%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20la%20formation%20sur%20la%20R%C3%A9animation%20Cardio%20Respiratoire%20et%20les%20premiers%20soins%2C%20anim%C3%A9e%20par%20Jamie%20Burns.%2016%20et%2017%20avril.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-cpr-avr16.ics">+CAL MHS CPR</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td>
+        <div class="day-num">17</div>
+        <div class="cal-event">Rédaction du TPCL</div>
+        <div class="cal-event">MHS – Atelier thérapie et art</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Atpcl-test-avr17%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260417%0D%0ADTEND%3BVALUE%3DDATE%3A20260418%0D%0ASUMMARY%3ATest%20du%20TPCL%0D%0ADESCRIPTION%3ATest%20provincial%20de%20comp%C3%A9tences%20linguistiques%20%28TPCL%29%20%E2%80%93%20r%C3%A9daction.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="tpcl-test-avr17.ics">+CAL TPCL</a>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-therapie-avr17%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260417%0D%0ADTEND%3BVALUE%3DDATE%3A20260418%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Atelier%20th%C3%A9rapie%20et%20art%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20un%20atelier%20sur%20la%20th%C3%A9rapie%20et%20l%27art.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-therapie-avr17.ics">+CAL MHS</a>
+        <div class="day-label">Jour 2</div>
+      </td>
+      <td><div class="day-num">18</div></td>
+    </tr>
+    <tr>
+      <td><div class="day-num">19</div></td>
+      <td><div class="day-num">20</div><div class="day-label">Jour 1</div></td>
+      <td>
+        <div class="day-num">21</div>
+        <div class="cal-event">Journée BAM</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abam-avr21%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260421%0D%0ADTEND%3BVALUE%3DDATE%3A20260422%0D%0ASUMMARY%3AJourn%C3%A9e%20BAM%0D%0ADESCRIPTION%3AJourn%C3%A9e%20BAM%20%C3%A0%20l%27%C3%A9cole.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="bam-avr21.ics">+CAL</a>
+        <div class="day-label">Jour 2</div>
+      </td>
+      <td>
+        <div class="day-num">22</div>
+        <div class="cal-event">🌍 Jour de la Terre</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Ajourterre-avr22%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260422%0D%0ADTEND%3BVALUE%3DDATE%3A20260423%0D%0ASUMMARY%3AJour%20de%20la%20Terre%0D%0ADESCRIPTION%3AJour%20de%20la%20Terre%20%E2%80%93%20sensibilisation%20%C3%A0%20l%27environnement.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="jour-terre-avr22.ics">+CAL</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td>
+        <div class="day-num">23</div>
+        <div class="cal-event">Festival de la foi Impact</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Afestivalfoi-avr23%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260423%0D%0ADTEND%3BVALUE%3DDATE%3A20260424%0D%0ASUMMARY%3AFestival%20de%20la%20foi%20Impact%20%E2%80%93%206e%20%C3%A9dition%0D%0ADESCRIPTION%3AL%27%C3%89SC%20Monseigneur%20de%20Charbonnel%20accueille%20une%20centaine%20de%20jeunes%20des%2013%20%C3%A9coles%20secondaires%20du%20Conseil%20scolaire%20Mon%20Avenir%20pour%20le%206e%20festival%20de%20la%20foi%20Impact.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="festival-foi-avr23.ics">+CAL</a>
+        <div class="day-label">Jour 2</div>
+      </td>
+      <td><div class="day-num">24</div>
+        <div class="cal-event">MHS – Linogravure (AGO)</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-lino-avr24%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260424%0D%0ADTEND%3BVALUE%3DDATE%3A20260425%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Atelier%20linogravure%20au%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20l%27Ontario%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20un%20atelier%20sur%20la%20linogravure%20%28lino%20printing%29%20au%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20l%27Ontario.%0D%0ALOCATION%3AMusée%20des%20Beaux-Arts%20de%20l%27Ontario%2C%20317%20Dundas%20St%20W%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-lino-avr24.ics">+CAL</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td><div class="day-num">25</div></td>
+    </tr>
+    <tr>
+      <td><div class="day-num">26</div></td>
+      <td><div class="day-num">27</div><div class="day-label">Jour 2</div></td>
+      <td>
+        <div class="day-num">28</div>
+        <div class="cal-event">Envoi de bulletins 9e–12e (Aspen)</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abulletins-avr28%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260428%0D%0ADTEND%3BVALUE%3DDATE%3A20260429%0D%0ASUMMARY%3AEnvoi%20des%20bulletins%209e%E2%80%9312e%20ann%C3%A9e%0D%0ADESCRIPTION%3AEnvoi%20des%20bulletins%20des%20%C3%A9l%C3%A8ves%20de%20la%209e%20%C3%A0%20la%2012e%20ann%C3%A9e%20via%20le%20portail%20Aspen.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="bulletins-avr28.ics">+CAL</a>
+        <div class="day-label">Jour 1</div>
+      </td>
+      <td>
+        <div class="day-num">29</div>
+        <div class="cal-event">Début des examens IB</div>
+        <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aexamensib-avr29%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260429%0D%0ADTEND%3BVALUE%3DDATE%3A20260430%0D%0ASUMMARY%3AD%C3%A9but%20des%20examens%20IB%0D%0ADESCRIPTION%3AD%C3%A9but%20des%20examens%20du%20Programme%20du%20Dipl%C3%B4me%20du%20Baccalaur%C3%A9at%20International.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="examens-ib-avr29.ics">+CAL</a>
+        <div class="day-label">Jour 2</div>
+      </td>
+      <td><div class="day-num">30</div><div class="day-label">Jour 1</div></td>
+      <td></td><td></td>
+    </tr>
+  </table>
+  </div>
+  <div class="page-num">Charbo Express / Avril 2026 — Page 01</div>
+</div>
+
+<!-- PAGE 2 — VIE SCOLAIRE -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 02</div>
+  </div>
+
+  <h1 class="section">Vie Scolaire</h1>
+
+  <h2 class="sub">Sondage de satisfaction</h2>
+  <p>Chers parents, à la suite du courriel envoyé par le Conseil scolaire, je vous rappelle l'invitation à compléter le sondage de satisfaction et d'auto-évaluation. Les élèves, le personnel enseignant et les partenaires sont aussi invités à le compléter. Pour garantir son indépendance et la clarté des données, la gestion du sondage est confiée au Centre de leadership et d'évaluation (CLÉ). Les données sont nécessaires pour offrir des services enrichissants aux élèves, aux membres du personnel et à la communauté.</p>
+  <p><a class="ici-link" href="https://sondage.lecle.com/signin/v1?redirectTo=/survey/selection">Cliquez ici pour accéder au sondage →</a></p>
+
+  <h2 class="sub">Sensibilisation à l'autisme</h2>
+  <div class="event-row">
+    <span class="ev-date">2 avril</span>
+    <span class="ev-desc">Journée mondiale de sensibilisation à l'autisme. Les élèves sont invités à porter un vêtement <strong>bleu</strong> accompagné du bas de l'uniforme. Les membres du personnel sont aussi invités à mettre du bleu.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aautisme-avr2%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260402%0D%0ADTEND%3BVALUE%3DDATE%3A20260403%0D%0ASUMMARY%3AJourn%C3%A9e%20mondiale%20de%20sensibilisation%20%C3%A0%20l%27autisme%0D%0ADESCRIPTION%3APorter%20un%20v%C3%AAtement%20bleu%20accompagn%C3%A9%20du%20bas%20de%20l%27uniforme.%20Le%20personnel%20est%20aussi%20invit%C3%A9%20%C3%A0%20mettre%20du%20bleu.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="autisme-avr2.ics">+CAL</a>
+    </span>
+  </div>
+
+  <h2 class="sub">Festival de la foi Impact</h2>
+  <div class="event-row">
+    <span class="ev-date">23 avril</span>
+    <span class="ev-desc">L'école accueille une centaine de jeunes des 13 écoles secondaires du Conseil scolaire Mon Avenir dans le cadre du <strong>6e festival de la foi Impact</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Afestivalfoi2-avr23%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260423%0D%0ADTEND%3BVALUE%3DDATE%3A20260424%0D%0ASUMMARY%3AFestival%20de%20la%20foi%20Impact%20%E2%80%93%206e%20%C3%A9dition%0D%0ADESCRIPTION%3AL%27%C3%89SC%20Monseigneur%20de%20Charbonnel%20accueille%20une%20centaine%20de%20jeunes%20de%2013%20%C3%A9coles%20secondaires%20du%20Conseil%20scolaire%20Mon%20Avenir.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="festival-foi2-avr23.ics">+CAL</a>
+    </span>
+  </div>
+
+  <h2 class="sub">Atelier cinéma mobile par le Labo</h2>
+  <div class="event-row">
+    <span class="ev-date">9 avril</span>
+    <span class="ev-desc">Écrire et réaliser son premier film. Créer un court métrage qui pourrait être projeté au Labo à Toronto. <a class="ici-link" href="https://drive.google.com/file/d/1UFyG9VArFZr608wdiX-DfdLXCekF6ZmW/view">Plus d'informations →</a>
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Acinema2-avr9%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260409%0D%0ADTEND%3BVALUE%3DDATE%3A20260410%0D%0ASUMMARY%3AAtelier%20cin%C3%A9ma%20mobile%20par%20le%20Labo%0D%0ADESCRIPTION%3A%C3%89crire%20et%20r%C3%A9aliser%20son%20premier%20film.%20Cr%C3%A9er%20un%20court%20m%C3%A9trage%20pouvant%20%C3%AAtre%20projet%C3%A9%20au%20Labo%20%C3%A0%20Toronto.%0D%0ALOCATION%3ALabo%20%E2%80%93%20Centre%20d%27arts%20m%C3%A9diatiques%20francophone%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="cinema2-avr9.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 02</div>
+</div>
+
+<!-- PAGE 3 — ATELIERS / IMPROVISATION -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 03</div>
+  </div>
+
+  <h1 class="section">Ateliers</h1>
+
+  <h2 class="sub">Surcyclage textile</h2>
+  <div class="event-row">
+    <span class="ev-date">20–23 avril</span>
+    <span class="ev-desc">Quatre jours d'ateliers sur le <strong>surcyclage textile</strong>. <a class="ici-link" href="https://drive.google.com/file/d/13-nZDzxDJ5HXuZB1ogrMmpNjKxqJe_hK/view">Plus d'informations →</a>
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Asurcyclage-avr20%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260420%0D%0ADTEND%3BVALUE%3DDATE%3A20260424%0D%0ASUMMARY%3AAteliers%20de%20surcyclage%20textile%0D%0ADESCRIPTION%3AQuatre%20jours%20d%27ateliers%20sur%20le%20surcyclage%20textile.%2020%2C%2021%2C%2022%20et%2023%20avril.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="surcyclage-avr20.ics">+CAL</a>
+    </span>
+  </div>
+
+  <h2 class="sub">Arts visuels (Artshine)</h2>
+  <div class="event-row">
+    <span class="ev-date">27 avr & 1er mai</span>
+    <span class="ev-desc">Deux jours d'ateliers avec les élèves de la <strong>8e année</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aartshine-avr27%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260427%0D%0ADTEND%3BVALUE%3DDATE%3A20260428%0D%0ASUMMARY%3AAtelier%20arts%20visuels%20Artshine%20%E2%80%93%208e%20ann%C3%A9e%20(Jour%201)%0D%0ADESCRIPTION%3AAtelier%20arts%20visuels%20avec%20les%20%C3%A9l%C3%A8ves%20de%20la%208e%20ann%C3%A9e%20%E2%80%93%20premier%20jour.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="artshine-avr27.ics">+CAL 27 avr</a>
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aartshine-mai1%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260501%0D%0ADTEND%3BVALUE%3DDATE%3A20260502%0D%0ASUMMARY%3AAtelier%20arts%20visuels%20Artshine%20%E2%80%93%208e%20ann%C3%A9e%20(Jour%202)%0D%0ADESCRIPTION%3AAtelier%20arts%20visuels%20avec%20les%20%C3%A9l%C3%A8ves%20de%20la%208e%20ann%C3%A9e%20%E2%80%93%20deuxi%C3%A8me%20jour.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="artshine-mai1.ics">+CAL 1er mai</a>
+    </span>
+  </div>
+
+  <h1 class="section">Improvisation</h1>
+  <p><strong>BRAVO À NOS INDISCIPLINÉS !!</strong></p>
+  <p>L'équipe a remporté la <strong>deuxième place</strong> au tournoi d'improvisation du conseil pour les écoles secondaires (9e à 12e), le 31 mars. Merci aux membres du personnel qui encadrent les élèves ! Prochaine étape : le <strong>Gazou d'or à Timmins</strong>.</p>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 03</div>
+</div>
+
+<!-- PAGE 4 — PÉDAGOGIE -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 04</div>
+  </div>
+
+  <h1 class="section">Pédagogie</h1>
+
+  <h2 class="sub">Bulletins et rencontres avec les enseignants</h2>
+  <div class="event-row">
+    <span class="ev-date">28 avril</span>
+    <span class="ev-desc">Envoi des bulletins des <strong>élèves de la 9e à la 12e année</strong>. Consultez le portail des parents ou celui de votre enfant via <strong>Aspen</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abulletins2-avr28%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260428%0D%0ADTEND%3BVALUE%3DDATE%3A20260429%0D%0ASUMMARY%3AEnvoi%20des%20bulletins%209e%E2%80%9312e%20ann%C3%A9e%0D%0ADESCRIPTION%3AConsultez%20le%20portail%20des%20parents%20ou%20celui%20de%20votre%20enfant%20via%20Aspen.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="bulletins2-avr28.ics">+CAL</a>
+    </span>
+  </div>
+  <div class="event-row">
+    <span class="ev-date">5 mai (soir)</span>
+    <span class="ev-desc">Rencontres virtuelles avec les enseignants pour discuter du rendement de votre enfant. Ouvert aux parents des élèves de la <strong>7e et 8e année</strong> également. Une invitation sera envoyée via <strong>School Day</strong> pour la prise de rendez-vous.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Arencontres-mai5%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260505%0D%0ADTEND%3BVALUE%3DDATE%3A20260506%0D%0ASUMMARY%3ARencontres%20virtuelles%20avec%20les%20enseignants%0D%0ADESCRIPTION%3ARencontres%20virtuelles%20pour%20discuter%20du%20rendement%20de%20votre%20enfant.%20Ouvert%20aux%20parents%20des%207e%2C%208e%2C%209e%20%C3%A0%2012e%20ann%C3%A9e.%20Prise%20de%20rendez-vous%20via%20School%20Day.%0D%0ALOCATION%3AVirtuel%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="rencontres-mai5.ics">+CAL</a>
+    </span>
+  </div>
+
+  <h2 class="sub">TPCL – Test provincial de compétences linguistiques</h2>
+  <div class="event-row">
+    <span class="ev-date">10 avril</span>
+    <span class="ev-desc">Sessions d'appui intensif aux élèves — <strong>Pratique</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Atpcl-prat2-avr10%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260410%0D%0ADTEND%3BVALUE%3DDATE%3A20260411%0D%0ASUMMARY%3ATPCL%20%E2%80%93%20Pratique%0D%0ADESCRIPTION%3ASessions%20d%27appui%20intensif%20aux%20%C3%A9l%C3%A8ves%20%E2%80%93%20pratique%20TPCL.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="tpcl-prat2-avr10.ics">+CAL</a>
+    </span>
+  </div>
+  <div class="event-row">
+    <span class="ev-date">17 avril</span>
+    <span class="ev-desc"><strong>Test</strong> — Rédaction du TPCL.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Atpcl-test2-avr17%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260417%0D%0ADTEND%3BVALUE%3DDATE%3A20260418%0D%0ASUMMARY%3ATPCL%20%E2%80%93%20Test%20(r%C3%A9daction)%0D%0ADESCRIPTION%3ATest%20provincial%20de%20comp%C3%A9tences%20linguistiques%20%28TPCL%29%20%E2%80%93%20journ%C3%A9e%20de%20r%C3%A9daction.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="tpcl-test2-avr17.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 04</div>
+</div>
+
+<!-- PAGE 5 — PRENDSTECH -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 05</div>
+  </div>
+
+  <h1 class="section">Robotique, Animation et Technologie — PrendsTech</h1>
+
+  <div class="event-row">
+    <span class="ev-date">14 avril</span>
+    <span class="ev-desc">Journée de compétition pour les élèves des classes de <strong>7e et 8e année</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aprendstech78b-avr14%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3APrendsTech%20%E2%80%93%20Comp%C3%A9tition%207e%20et%208e%20ann%C3%A9e%0D%0ADESCRIPTION%3AJourn%C3%A9e%20de%20comp%C3%A9tition%20en%20robotique%2C%20animation%20et%20technologie%20pour%20les%207e%20et%208e%20ann%C3%A9e.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="prendstech-78b-avr14.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="event-row">
+    <span class="ev-date">16 avril</span>
+    <span class="ev-desc">Journée de compétition pour les élèves des <strong>écoles nourricières</strong> (Saint-Noël-Chabanel et Sainte-Madelaine). Remise des prix, repas et conférence en soirée.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Aprendstech-nourr2-avr16%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260416%0D%0ADTEND%3BVALUE%3DDATE%3A20260417%0D%0ASUMMARY%3APrendsTech%20%E2%80%93%20Comp%C3%A9tition%20%C3%A9coles%20nourri%C3%A8res%0D%0ADESCRIPTION%3AJourn%C3%A9e%20de%20comp%C3%A9tition%20pour%20Saint-No%C3%ABl-Chabanel%20et%20Sainte-Madelaine.%20Remise%20des%20prix%2C%20repas%20et%20conf%C3%A9rence%20en%20soir%C3%A9e.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="prendstech-nourr2-avr16.ics">+CAL Journée</a>
+    </span>
+  </div>
+
+  <h2 class="sub">Soirée PrendsTech — 16 avril, 17h30–19h</h2>
+  <p>La Soirée PrendsTech aura lieu le <strong>16 avril de 17h30 à 19h</strong> à l'ÉSC Monseigneur-de-Charbonnel. Au programme :</p>
+  <ul>
+    <li><strong>Exposition</strong> — Découvrez nos MHS et nos partenaires</li>
+    <li><strong>Conférence sur les métiers spécialisés</strong> — Rokhaya Gueye, charpentière, présidente de Sisters in the Brotherhood (SIB) en Ontario</li>
+    <li><strong>Remise des prix</strong> — Légos Spike, Animation, Technologie</li>
+    <li><strong>Repas gratuits</strong> pour les 250 premières personnes sur place</li>
+  </ul>
+  <div class="event-row" style="margin-top:10px;">
+    <span class="ev-date">16 avr<br>17h30–19h</span>
+    <span class="ev-desc">Soirée PrendsTech — ÉSC Monseigneur-de-Charbonnel
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Asoiree-prendstech2-avr16%40charbo2026%0D%0ADTSTART%3A20260416T213000Z%0D%0ADTEND%3A20260416T230000Z%0D%0ASUMMARY%3ASoir%C3%A9e%20PrendsTech%20%E2%80%93%2017h30%E2%80%9319h%0D%0ADESCRIPTION%3AExposition%2C%20conf%C3%A9rence%20sur%20les%20m%C3%A9tiers%20sp%C3%A9cialis%C3%A9s%20%28Rokhaya%20Gueye%29%2C%20remise%20des%20prix%20et%20repas%20gratuits%20pour%20les%20250%20premi%C3%A8res%20personnes.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="soiree-prendstech2-avr16.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 05</div>
+</div>
+
+<!-- PAGE 6 — MHS ACTIVITÉS -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 06</div>
+  </div>
+
+  <h1 class="section">Activités — Majeure Haute Spécialisation (MHS)</h1>
+
+  <div class="event-row">
+    <span class="ev-date">10 avril</span>
+    <span class="ev-desc">Formation sur les <strong>pigments et les couleurs</strong> à la Fondation Aga Khan.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-agakhan2-avr10%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260410%0D%0ADTEND%3BVALUE%3DDATE%3A20260411%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Formation%20pigments%20et%20couleurs%20(Aga%20Khan)%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20une%20formation%20sur%20les%20pigments%20et%20les%20couleurs%20%C3%A0%20la%20fondation%20Aga%20Khan.%0D%0ALOCATION%3AFondation%20Aga%20Khan%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-agakhan2-avr10.ics">+CAL</a>
+    </span>
+  </div>
+  <div class="event-row">
+    <span class="ev-date">14 avril</span>
+    <span class="ev-desc">Atelier <strong>Innovation, Créativité et Entrepreneuriat</strong> animé par Beanstalk.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-beanstalk2-avr14%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Atelier%20Innovation%2C%20Cr%C3%A9ativit%C3%A9%20et%20Entrepreneuriat%20(Beanstalk)%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20assistent%20%C3%A0%20un%20atelier%20Innovation%2C%20Cr%C3%A9ativit%C3%A9%20et%20Entrepreneuriat%20anim%C3%A9%20par%20Beanstalk.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-beanstalk2-avr14.ics">+CAL</a>
+    </span>
+  </div>
+  <div class="event-row">
+    <span class="ev-date">16–17 avril</span>
+    <span class="ev-desc">Formation sur la <strong>Réanimation Cardio Respiratoire (RCR) et les premiers soins</strong>, animée par Jamie Burns.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-cpr2-avr16%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260416%0D%0ADTEND%3BVALUE%3DDATE%3A20260418%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Formation%20RCR%20et%20premiers%20soins%20(Jamie%20Burns)%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20la%20formation%20sur%20la%20R%C3%A9animation%20Cardio%20Respiratoire%20et%20les%20premiers%20soins%2C%20anim%C3%A9e%20par%20Jamie%20Burns.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-cpr2-avr16.ics">+CAL</a>
+    </span>
+  </div>
+  <div class="event-row">
+    <span class="ev-date">17 avril</span>
+    <span class="ev-desc">Atelier sur la <strong>thérapie et l'art</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-therapie2-avr17%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260417%0D%0ADTEND%3BVALUE%3DDATE%3A20260418%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Atelier%20th%C3%A9rapie%20et%20art%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20un%20atelier%20sur%20la%20th%C3%A9rapie%20et%20l%27art.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-therapie2-avr17.ics">+CAL</a>
+    </span>
+  </div>
+  <div class="event-row">
+    <span class="ev-date">24 avril</span>
+    <span class="ev-desc">Atelier sur la <strong>linogravure</strong> au Musée des Beaux-Arts de l'Ontario (AGO).
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amhs-lino2-avr24%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260424%0D%0ADTEND%3BVALUE%3DDATE%3A20260425%0D%0ASUMMARY%3AMHS%20%E2%80%93%20Atelier%20linogravure%20au%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20l%27Ontario%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20de%20la%20MHS%20font%20un%20atelier%20sur%20la%20linogravure%20%28lino%20printing%29%20au%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20l%27Ontario.%0D%0ALOCATION%3AMusée%20des%20Beaux-Arts%20de%20l%27Ontario%2C%20317%20Dundas%20St%20W%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="mhs-lino2-avr24.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 06</div>
+</div>
+
+<!-- PAGE 7 — PASTORALE -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 07</div>
+  </div>
+
+  <h1 class="section">Pastorale</h1>
+
+  <h2 class="sub">Chemin de Croix en tableaux vivants</h2>
+  <div class="event-row">
+    <span class="ev-date">2 avril</span>
+    <span class="ev-desc">Les élèves du groupe <strong>Flamme et Foi</strong> ainsi que ceux du groupe <strong>Pastoral</strong> animent le Chemin de Croix à l'aide des tableaux vivants.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Achemincroix2-avr2%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260402%0D%0ADTEND%3BVALUE%3DDATE%3A20260403%0D%0ASUMMARY%3AChemin%20de%20Croix%20en%20tableaux%20vivants%0D%0ADESCRIPTION%3ALes%20%C3%A9l%C3%A8ves%20du%20groupe%20Flamme%20et%20Foi%20et%20du%20groupe%20Pastoral%20animent%20le%20Chemin%20de%20Croix%20%C3%A0%20l%27aide%20des%20tableaux%20vivants.%0D%0ALOCATION%3A%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="chemin-croix2-avr2.ics">+CAL</a>
+    </span>
+  </div>
+
+  <h2 class="sub">Messe de la Résurrection</h2>
+  <div class="event-row">
+    <span class="ev-date">13 avril</span>
+    <span class="ev-desc">Messe de la Résurrection à la cafétéria de l'école.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Amesse2-avr13%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260413%0D%0ADTEND%3BVALUE%3DDATE%3A20260414%0D%0ASUMMARY%3AMesse%20de%20la%20R%C3%A9surrection%0D%0ADESCRIPTION%3AMesse%20de%20la%20R%C3%A9surrection%20%C3%A0%20la%20caf%C3%A9t%C3%A9ria%20de%20l%27%C3%A9cole.%0D%0ALOCATION%3ACaf%C3%A9t%C3%A9ria%2C%20%C3%89SC%20Monseigneur-de-Charbonnel%2C%20Toronto%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="messe2-avr13.ics">+CAL</a>
+    </span>
+  </div>
+
+  <p style="margin-top:20px;text-align:center;font-weight:700;font-size:14px;">Au nom des membres du personnel, l'équipe de la direction vous souhaite un heureux temps de Pâques. 🐣</p>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 07</div>
+</div>
+
+<!-- PAGE 8 — SPORTS -->
+<div class="page">
+  <div class="masthead">
+    <div class="masthead-logo">MGR<br>DE<br>CHARB.</div>
+    <div class="masthead-text">
+      <div class="masthead-title">Charbo Express</div>
+      <div class="masthead-sub">École Secondaire Catholique Monseigneur de Charbonnel</div>
+    </div>
+    <div class="masthead-edition">Avril 2026<br>Page 08</div>
+  </div>
+
+  <h1 class="section">Sports</h1>
+
+  <h2 class="sub">Tournoi de badminton TDCAA — Centre Pan Am, Markham</h2>
+
+  <div class="event-row">
+    <span class="ev-date">7 avril</span>
+    <span class="ev-desc">Tournoi pour les élèves de la <strong>9e et 10e année</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abadminton910-avr7%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260407%0D%0ADTEND%3BVALUE%3DDATE%3A20260408%0D%0ASUMMARY%3ATournoi%20de%20badminton%20TDCAA%20%E2%80%93%209e%20et%2010e%20ann%C3%A9e%0D%0ADESCRIPTION%3ATournoi%20de%20badminton%20TDCAA%20au%20centre%20Pan%20Am%20%C3%A0%20Markham%20%E2%80%93%209e%20et%2010e%20ann%C3%A9e.%0D%0ALOCATION%3ACentre%20Pan%20Am%2C%20Markham%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="badminton-910-avr7.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="event-row">
+    <span class="ev-date">14 avril</span>
+    <span class="ev-desc">Tournoi pour les élèves de la <strong>11e et 12e année</strong>.
+      <a class="ical-btn" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2.0%0D%0APRODID%3A-CHARBO-FR%0D%0ABEGIN%3AVEVENT%0D%0AUID%3Abadminton1112b-avr14%40charbo2026%0D%0ADTSTART%3BVALUE%3DDATE%3A20260414%0D%0ADTEND%3BVALUE%3DDATE%3A20260415%0D%0ASUMMARY%3ATournoi%20de%20badminton%20TDCAA%20%E2%80%93%2011e%20et%2012e%20ann%C3%A9e%0D%0ADESCRIPTION%3ATournoi%20de%20badminton%20TDCAA%20au%20centre%20Pan%20Am%20%C3%A0%20Markham%20%E2%80%93%2011e%20et%2012e%20ann%C3%A9e.%0D%0ALOCATION%3ACentre%20Pan%20Am%2C%20Markham%2C%20ON%0D%0AEND%3AVEVENT%0D%0AEND%3AVCALENDAR" download="badminton-1112b-avr14.ics">+CAL</a>
+    </span>
+  </div>
+
+  <div class="note" style="margin-top:24px;">
+    <strong>Comment utiliser les boutons +CAL :</strong> Appuyez sur n'importe quel bouton <strong>+CAL</strong> pour télécharger un fichier <code>.ics</code>. Ouvrez-le pour ajouter l'événement directement dans Calendrier Apple, Google Agenda, Outlook ou toute autre application de calendrier.
+  </div>
+
+  <div class="page-num">Charbo Express / Avril 2026 — Page 08</div>
+</div>
+
+</body>
+</html>
